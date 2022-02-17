@@ -6,6 +6,20 @@
 section {
     height: 100vh;
     text-align: center;
+    font-family: sans-serif;
+}
+
+.score {
+    height: 20vh;
+}
+
+.score h2 {
+    font-size: 30px;
+}
+
+.score p {
+    padding: 10px;
+    font-size: 45px;
 }
 
 button {
