@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score {
+    height: 15vh;
+}
+
+.score h2 {
+    font-size: 30px;
+}
+
+.score p {
+    padding: 10px;
+    font-size: 45px;
+}
+
+.outro {
+    height: 20vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+.letters button {
+    font-size: 30px;
+}
+
+.hangman {
+    height: 25vh;
+}
+
+.dashes {
+    display: flex;
+    justify-content: center;
+}
+
+.dash,
+.letter {
+    padding: 10px;
+    margin: 5px;
+}
+
+form {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+form button {
+    font-size: 20px;
+}
+
+.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
