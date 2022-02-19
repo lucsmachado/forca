@@ -1,10 +1,12 @@
 const express = require('express');
 const Datastore = require('nedb');
 
+const PORT = process.env.PORT || 5000;
+
 const app = express();
 
-app.listen(3000, () => {
-    console.log('Listening at port 3000');
+app.listen(PORT, () => {
+    console.log(`Listening at port ${PORT}`);
 });
 
 app.use(express.static('client'));
