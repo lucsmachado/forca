@@ -83,7 +83,7 @@ const game = () => {
     
     const checkGameOver = (word) => {
         if (currentSprite == 6) { // Player ran out of guesses
-            alert("Você perdeu :(");
+            alert(`Você perdeu :(\nA palavra era "${word}".`);
             endGame();
         } else if (lettersFound == word.length) { // Player guessed the entire word
             alert("Você venceu! :)")
